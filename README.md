@@ -71,7 +71,7 @@ Tools for managing containers, Kubernetes clusters, and related orchestration pl
 ### 🔌 Bare Metal & Server Hardware
 Tools for managing physical servers through their BMCs (Redfish, IPMI).
 
-- [Blackman99/rackhands](https://github.com/Blackman99/rackhands) 🏎️ 🏠 🍎 🪟 🐧 - Out-of-band server management over Redfish (Dell iDRAC, HPE iLO, Lenovo XCC, Supermicro, generic DMTF) with IPMI fallback. Reads inventory, health, sensors and event logs; power, boot override, BMC reset, firmware update and virtual media stay off until enabled and need a per-request confirmation token. CLI and MCP server in one binary.
+- [Blackman99/rackhands](https://github.com/Blackman99/rackhands) 🏎️ 🏠 🍎 🪟 🐧 - Out-of-band server management over Redfish (Dell iDRAC, HPE iLO, Lenovo XCC, Supermicro, generic DMTF) with IPMI fallback. Reads inventory, health, sensors and event logs; power, boot override, BMC reset, firmware update and virtual media stay off until enabled. CLI confirmation requires typing the target name or using `--yes <name>`; MCP uses a single-use token bound to the exact request. CLI and MCP server in one binary.
 
 ### ☁️ Cloud Providers
 
